@@ -1,0 +1,56 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(145, 116, 45);
+}
+.box{
+    
+    background-color: rgb(73, 61, 30);
+    height: 200px;
+    width: 400px;
+    text-align: center;
+    gap: 30px;
+    border-radius: 30px;
+    
+  
+}
+#inputtext{
+    padding: 10px 30px;
+   
+}
+.btn{
+    margin: 20px;
+}
+button{
+    font-size: 20px;
+    background-color: rgb(212, 196, 155);
+    border-radius: 20px;
+    padding: 10px 60px;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+<div class="box">
+    <h1> Generate Qr Code</h1>
+    <input type="text" id="inputtext" placeholder="Enter your input or url">
+    <div class="btn"><button onclick="generateqr()">Generate Qr</button></div>
+    
+</div>
+<div class="image">
+  <div id="img-qr">
+    <img src="" alt="" id="imgqr">
+  </div>
+</div>
+</div>
