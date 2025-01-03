@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: black;
+}
+h2{
+    color: rgb(239, 189, 60);
+    font-size: 45px;
+}
+p{
+    color: darkkhaki;
+    font-size: 35px;
+}
+button{
+    font-size: 25px;
+    margin: 10px;
+    background-color: rgb(222, 105, 167);
+}
