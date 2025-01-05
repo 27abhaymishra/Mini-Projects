@@ -1,0 +1,28 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(161, 61, 24);
+  
+}
+.box{
+    background-color: rgb(110, 58, 38);
+    text-align: center;
+    padding: 10px 40px;
+}
+button{
+    padding: 10px 50px;
+    background-color: rgb(161, 61, 24);
+    border-radius: 20px;
+}
+input{
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+}
