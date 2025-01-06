@@ -1,0 +1,34 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.box{
+    background-color: #333;
+    color: rgba(255, 255, 255, 0.788);
+    padding: 20px;
+    text-align: center;
+}
+input{
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+button{
+    padding: 10px 60px;
+    background-color: skyblue;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: white;
+    
+}
+#print{
+    font-size: 20px;
+}
