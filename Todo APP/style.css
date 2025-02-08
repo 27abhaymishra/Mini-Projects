@@ -1,0 +1,42 @@
+body,html{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+.container{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+   }
+li{
+    color: rgb(143, 108, 65);
+    font-size: 25px;
+    margin: 10px;
+}
+.box{
+    margin: 40px;
+    color: white;
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 20px 80px;
+    border-radius: 20px;
+    
+
+}
+input{
+    font-size: 25px;
+}
+
+
+button{
+    font-size: 20px;
+    background-color: rgb(22, 20, 20);
+    cursor: pointer;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
