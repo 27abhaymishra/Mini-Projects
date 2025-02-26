@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body,html{
+        padding: 0;
+        margin: 0;
+        height: 100%;
+    }
+    .container{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+    .box{
+        background-color: rgba(17, 11, 11, 0.829);
+        padding: 30px 80px;
+        border-radius: 30px;
+        
+    }
+    button{
+        font-size: 20px;
+        padding: 10px 40px;
+        background-color: rgb(84, 84, 143);
+        margin: 5px;
+    }
+    .inner{
+        width: 540px;
+        height: 220px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+   
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            <div class="inner">
+            <p id="para">Good Morning</p>
+        </div>
+
+            <button  id="one" onclick="sum()">+</button>
+            <button  id="two" onclick="minus()">-</button>
+            <p id="ans">0</p>
+        </div>
+    </div>
+
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
